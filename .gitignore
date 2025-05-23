@@ -1,0 +1,77 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment folders
+venv/
+.env/
+.env.bak/
+.venv/
+llm-env/
+
+# Conda environments
+*.conda
+*.env
+*.yml
+*.yaml
+
+# VSCode settings
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Model checkpoints, weights, cache
+*.ckpt
+*.h5
+*.pth
+*.pt
+*.onnx
+*.bin
+
+# Hugging Face cache
+~/.cache/
+cache/
+transformers_cache/
+datasets/
+hub/
+
+# LangChain, Weights & Biases, etc.
+.wandb/
+mlruns/
+wandb/
+
+# Tokenizer/Vectorstore data
+*.faiss
+*.npz
+*.npy
+*.pkl
+*.joblib
+
+# API keys / config (you should put them in .env)
+.env
+config.yaml
+
+# IPython history
+.history
+
+# Not
+
